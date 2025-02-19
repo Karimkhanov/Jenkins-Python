@@ -5,12 +5,12 @@ import sys
 def main():
     # Проверяем, переданы ли аргументы (имена)
     if len(sys.argv) < 2:
-        print("Не указаны имена. Пожалуйста, передайте хотя бы одно имя как аргумент.")
+        print("No names are specified. Please pass at least one name as an argument.")
         sys.exit(1)
     
     # Обрабатываем каждое переданное имя
     for name in sys.argv[1:]:
-        print(f"Привет, {name}!")
+        print(f"Hello, {name}!")
 
 if __name__ == '__main__':
     main()
