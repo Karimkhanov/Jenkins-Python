@@ -1,4 +1,4 @@
-print("Testing Jenkins! Hello from your student Tursynkhan XD")
+print("Testing Jenkins! Hello from your students Tursynkhan and Akhmadi XD")
 
 import sys
 
